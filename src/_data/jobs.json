@@ -25,9 +25,41 @@
     ]
   },
   {
-    "title": "test2",
+    "title": "Brainbrothers",
     "date": "2016-01-01",
     "dateEnd": "2016-01-01",
-    "projects": []
+    "projects": [
+      {
+        "title": "Bol.com"
+      },
+      {
+        "title": "Blink uitgevers"
+      },
+      {
+        "title": "ANP"
+      },
+      {
+        "title": "Online.nl"
+      }
+    ]
+  },
+  {
+    "title": "4Net Interactive",
+    "date": "2016-01-01",
+    "dateEnd": "2016-01-01",
+    "projects": [
+      {
+        "title": "Bol.com"
+      },
+      {
+        "title": "Blink uitgevers"
+      },
+      {
+        "title": "ANP"
+      },
+      {
+        "title": "Online.nl"
+      }
+    ]
   }
 ]

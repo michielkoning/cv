@@ -1,0 +1,49 @@
+---
+title: Hello Wold
+layout: "base.njk"
+---
+
+<div class="wrapper">
+  <div class="header">
+    <div class="employers">Werkgever</div>
+    <div class="projects">Projecten</div>
+  </div>
+  <h1>Werkervaring</h1>
+  <ul>
+    {% for job in jobs %}
+      <li class="list-item">
+        <div class="meta">
+          <div class="title">
+            <h2>{{ job.title }}</h2>
+          </div>
+          <div class="dates">{{ job.date }} - {{ job.dateEnd }}</div>
+        </div>
+        <div>
+          {% for project in job.projects %}
+            <div class="project">
+              <h3>{{ project.title }}</h3>
+              {% if project.excerpt %}
+                <p>{{ project.excerpt }}</p>
+              {% endif %}
+              {% if project.description %}
+                <p>{{ project.description }}</p>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  <h1>Opleidingen</h1>
+  <ul>
+    {% for job in educations %}
+      <li class="list-item">
+        <div class="meta">
+          <div class="title">
+            <h2>{{ job.title }}</h2>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

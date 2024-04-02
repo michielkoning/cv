@@ -12,7 +12,8 @@ body {
   }
 }
 
-h2 {
+h2,
+h3 {
   margin: 0 0 1em;
   font-size: 1em;
   padding: 0;
@@ -24,6 +25,8 @@ ul {
 }
 
 .header {
+  background: #fff;
+  z-index: 2;
   position: sticky;
   top: 0;
 }
@@ -37,11 +40,11 @@ ul {
 }
 
 .project {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 p {
-  margin: 0 0 auto;
+  margin: 0 0 1em;
 }
 
 .wrapper {
