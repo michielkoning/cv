@@ -1,0 +1,49 @@
+:root {
+  --zero: 0px;
+  --wrapper-width: 64em;
+  --gutter: 1em;
+}
+
+body {
+  font-family: sans-serif;
+  & {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+h2 {
+  margin: 0 0 1em;
+  font-size: 1em;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
+.header,
+.list-item {
+  margin-bottom: 2em;
+  display: grid;
+  gap: var(--gutter);
+  grid-template-columns: 12em auto;
+}
+
+p {
+  margin: 0 0 auto;
+}
+
+.wrapper {
+  --zero: 0px;
+  --wrapper-width: 64em;
+
+  padding-inline: var(--gutter);
+  margin-inline: max(0px, ((100% - var(--wrapper-width)) / 2));
+}
