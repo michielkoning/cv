@@ -10,18 +10,25 @@ layout: "base.njk"
   </div>
 
 <ul>
-{% for job in collections.jobs | sort: data.date %}
+
+{% for job in jobs %}
+
    <li class="list-item">
       <div class="meta">
         <div class="title">
-          {{ job.data.title }}
+          {{ job.title }}
         </div>
-        <div class="dates">{{ job.data.date | date }} - {{ job.data.dateEnd | date }}</div>
+        <div class="dates">{{ job.date }} - {{ job.dateEnd }}</div>
       </div>
-      <div>
-        <h2>{{ job.data.title }}</h2>
-        {{ job.content }}</div>
+      <div class="project">
+        {% for project in job.projects %}
+          {{ project.title }}
+          {{ project.excerpt }}
+          {{ project.description }}
+        {%endfor %}
+      </div>
     </li>
 {%endfor %}
+
 </ul>
 </div>

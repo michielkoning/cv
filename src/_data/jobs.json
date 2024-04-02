@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Valtech",
+    "date": "2016-01-01",
+    "dateEnd": "2016-01-01",
+    "projects": [
+      {
+        "title": "CZ",
+        "excerpt": "Het bouwen van het aanmeldformulier voor CZ en de gerelateerde merken.",
+        "description": "Het aanmeldformulier voor het afsluiten van een verzekering bij CZ is een white label microservice die kan worden geplaatst in een sitecore pagina. De data komt uit een BFF, een backend geoptimaliseerd voor de frontend.",
+        "url": "https://www.cz.nl/zorgverzekering/premie-berekenen"
+      },
+      {
+        "title": "PON Carconfigurator",
+        "excerpt": "Het bouwen van de merkensites en de carconfigurator",
+        "description": "De carconfigurator is een Nuxt applicatie die ",
+        "url": "https://www.cz.nl/zorgverzekering/premie-berekenen"
+      },
+      {
+        "title": "PON",
+        "excerpt": "Het bouwen van de merkensites en de carconfigurator",
+        "description": "Het bouwen van de frontend voor Volkswagen, Skoda, Seat en Cupra. De frontend van de merkensites zijn ontwikkeld in Sitecore en whitelabel opgezet. De sitecore componenten kunnen ingezet worden door alle merken. Componenten die een zware interarctie vereisen, worden als microservice opgezet in Vue.",
+        "url": "https://www.cz.nl/zorgverzekering/premie-berekenen"
+      }
+    ]
+  },
+  {
+    "title": "test2",
+    "date": "2016-01-01",
+    "dateEnd": "2016-01-01",
+    "projects": []
+  }
+]

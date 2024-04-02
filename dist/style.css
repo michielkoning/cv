@@ -36,6 +36,10 @@ ul {
   grid-template-columns: 12em auto;
 }
 
+.project {
+  margin-bottom: 1em;
+}
+
 p {
   margin: 0 0 auto;
 }
