@@ -1,42 +1,66 @@
 [
   {
     "title": "Valtech",
+    "description": "Valtech is een digital agency",
+    "jobTitle": "Frontend Architect",
     "date": "2016-01-01",
-    "dateEnd": "2016-01-01",
     "projects": [
       {
         "title": "CZ",
         "excerpt": "Het bouwen van het aanmeldformulier voor CZ en de gerelateerde merken.",
         "description": "Het aanmeldformulier voor het afsluiten van een verzekering bij CZ is een white label microservice die kan worden geplaatst in een sitecore pagina. De data komt uit een BFF, een backend geoptimaliseerd voor de frontend.",
-        "url": "https://www.cz.nl/zorgverzekering/premie-berekenen"
+        "urls": [
+          "https://www.cz.nl/zorgverzekering/premie-berekenen"
+        ],
+        "tools": [
+          "React",
+          "NX",
+          "Styled Components"
+        ]
       },
       {
         "title": "PON Carconfigurator",
         "excerpt": "Het bouwen van de merkensites en de carconfigurator",
         "description": "De carconfigurator is een Nuxt applicatie die ",
-        "url": "https://www.cz.nl/zorgverzekering/premie-berekenen"
+        "urls": [
+          "https://www.cz.nl/zorgverzekering/premie-berekenen"
+        ],
+        "tools": [
+          "React",
+          "NX",
+          "Styled Components"
+        ]
       },
       {
-        "title": "PON",
+        "title": "PON Merkensites",
         "excerpt": "Het bouwen van de merkensites en de carconfigurator",
         "description": "Het bouwen van de frontend voor Volkswagen, Skoda, Seat en Cupra. De frontend van de merkensites zijn ontwikkeld in Sitecore en whitelabel opgezet. De sitecore componenten kunnen ingezet worden door alle merken. Componenten die een zware interarctie vereisen, worden als microservice opgezet in Vue.",
-        "url": "https://www.cz.nl/zorgverzekering/premie-berekenen"
+        "urls": [
+          "https://www.cz.nl/zorgverzekering/premie-berekenen"
+        ]
       }
     ]
   },
   {
     "title": "Brainbrothers",
+    "jobTitle": "Senior Frontend Developer",
     "date": "2016-01-01",
     "dateEnd": "2016-01-01",
     "projects": [
       {
-        "title": "Bol.com"
+        "title": "Bol.com",
+        "excerpt": "Refactor Product pagina",
+        "description": "Bol.com moest overgaan naar een volledige responsive site, in plaats van het bouwen en onderhouden van een mobiele website naast de reguliere website. Dit ging gepaard met een grote refactorslag, waarbij de architectuur (zowel backend als frontend) volledig opnieuw is opgezet. Ik was onderdeel van het PDP team en dat team heeft zich volledig geconcentreerd op de Product Pagina"
       },
       {
-        "title": "Blink uitgevers"
+        "title": "Blink uitgevers",
+        "excerpt": "Muziekles voor een digitaal schoolbord",
+        "description": "Een muziekles voor basisscholen uitwerken voor een digitaal schoolbord. De lessen bestonden uit onder meer korte vragen, video's en geluidsfragmenten."
       },
       {
-        "title": "ANP"
+        "title": "ANP",
+        "excerpt": "Uitslagen voor de gemeenteraadsverkiezingen",
+        "description": "Een kleine pagina maken voor de gemeenteraadsverkiezingen die realtime de uitslagen presenteerde. Deze pagina werd op grote schermen gebruikt in gemeentehuizen."
       },
       {
         "title": "Online.nl"
@@ -45,21 +69,9 @@
   },
   {
     "title": "4Net Interactive",
+    "jobTitle": "Senior Frontend Developer",
+    "description": "4Net Interactive is een digital agency, met een rijk portfolio en een focus op Ecommerce. Als Frontend Developer heb ik bij 4Net Interactive projecten gedaan voor onder meer de Efteling, Ajax, Feyenoord, PSV, KNVB, Canal Digitaal en Seniorweb",
     "date": "2016-01-01",
-    "dateEnd": "2016-01-01",
-    "projects": [
-      {
-        "title": "Bol.com"
-      },
-      {
-        "title": "Blink uitgevers"
-      },
-      {
-        "title": "ANP"
-      },
-      {
-        "title": "Online.nl"
-      }
-    ]
+    "dateEnd": "2016-01-01"
   }
 ]
